@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <style>
+body {
+    overflow-x: hidden;
+    position: absolute;
+    background: rgb(34,34,42);
+    overflow-y: scroll;
+}
+
+.top-circ-left{
+    position: fixed;
+    background: rgb(44,44,54);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: -25px;
+    box-shadow: 0px 10px 20px rgb(27,26,34);
+}
+
+.top-circ-right{
+    position: fixed;
+    background: rgb(233,63,89);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: -60px;
+    margin-left: 180px;
+    box-shadow: 0px 10px 20px rgb(27,26,34);
+}
+
+.heading-1{
+    color: #fff;
+    margin-top: 55%;
+    margin-left: 4%;
+    font-size: 30px;
+    position: fixed;
+}
+
+.tag-h1{
+    color: rgb(141,141,149);
+    margin-top: 67%;
+    margin-left: 4%;
+    font-size: 14px;
+    position: fixed;
+    outline: none;
+}
+
+.email-box{
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 2px solid rgb(141,141,149);
+    background: rgb(34,34,42);
+    margin-top: 140%;
+    position: relative ;
+    margin-left: 19%;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    color: rgb(141,141,149);
+    font-size: 23px;
+}
+
+.password-box{
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 2px solid rgb(141,141,149);
+    background: rgb(34,34,42);
+    margin-top: 10%;
+    position: relative ;
+    outline: none;
+    margin-left: 19%;
+    width: 250px;
+    height: 50px;
+    color: rgb(141,141,149);
+    font-size: 23px;
+}
+
+.login-btn{
+    padding: 15px 130px;
+    position: fixed;
+    border-radius: 27px;
+    background: rgb(233,63,89);
+    margin-left: -98px;
+    outline: none;
+    border: none;
+    margin-top: 26px;
+    box-shadow: 0px 10px 20px rgb(27,26,34);
+}
+
+.e-label{
+    position: fixed;
+    color: rgb(141,141,149);
+    font-size: 10px;
+    margin-top: 94%;
+    margin-left: 13%;
+}
+
+.p-label{
+    position: fixed;
+    color: rgb(141,141,149);
+    font-size: 10px;
+    margin-top: 5%;
+    margin-left: 13%;
+    z-index: 99;
+}
+
+.notice{
+    position: fixed;
+    color: rgb(141,141,149);
+    font-size: 10px;
+    margin-top: 25%;
+    margin-left: 22%;
+}
+        </style>
+    </head>
+    <body>
+    
+    <!--background UI-->
+        
+        <div class="top-circ-left">
+        </div>
+        <div class="top-circ-right">
+        </div>
+    <!--end-->  
+    
+    <!--Headings and tags-->
+        <h1 class="heading-1">
+            SoloLearn Fandom
+        </h1>
+        <p class="tag-h1">
+            by Raj Srivastava
+        </p>
+    
+   <center>  
+   <p class="e-label">E-Mail</p>
+        <input class="email-box" 
+               type="email" autofill="false">
+               
+        <br>
+        
+   <p class="p-label">Password</p>
+        <input class="password-box"
+               type="password" autofill="false">
+               
+               <button class="login-btn">
+                   Login
+               </button>
+               
+        <p class="notice">Loging in accepting the <u>Terms & Conditions</u></p>
+               
+   </center>    
+   
+   
+    </body>
+</html>
